@@ -3,7 +3,8 @@
     <File Path="icon_128.png" />
     <File Path="README.md" />
     <File Path=".gitignore" />
+    <File Path="ImageCreator.slnx" />
   </Folder>
-  <Project Path="ImageCreator\ImageCreator.csproj" Type="Classic C#" />
-  <Project Path="Tests\Tests.csproj" Type="Classic C#" />
+  <Project Path="source\ImageCreator\ImageCreator.csproj" Type="Classic C#" />
+  <Project Path="source\Tests\Tests.csproj" Type="Classic C#" />
 </Solution>
