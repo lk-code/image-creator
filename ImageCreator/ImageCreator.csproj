@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+
+        <Authors>lk-code</Authors>
+        <Company>$(Authors)</Company>
+        <ToolCommandName>imgcreator</ToolCommandName>
+        <PackageProjectUrl>https://github.com/lk-code/image-creator</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/lk-code/image-creator</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <Description>the tool to create floppy images as a file</Description>
+        <PackAsTool>true</PackAsTool>
+        <PackageOutputPath>./nupkg</PackageOutputPath>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <AssemblyName>imgcreator</AssemblyName>
+        <Copyright>MIT</Copyright>
+        <PackageIcon>icon_128.png</PackageIcon>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+        <VersionPrefix>1.0.0</VersionPrefix>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Cocona" Version="2.2.0"/>
+        <PackageReference Include="LTRData.DiscUtils.Fat" Version="1.0.62" />
+        <PackageReference Include="Spectre.Console.Cli" Version="0.50.0" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <None Include="..\icon_128.png">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
+        <None Include="..\README.md">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
+    </ItemGroup>
+
+</Project>

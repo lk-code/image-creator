@@ -1,0 +1,9 @@
+﻿<Solution>
+  <Folder Name="/Solution/">
+    <File Path="icon_128.png" />
+    <File Path="README.md" />
+    <File Path=".gitignore" />
+  </Folder>
+  <Project Path="ImageCreator\ImageCreator.csproj" Type="Classic C#" />
+  <Project Path="Tests\Tests.csproj" Type="Classic C#" />
+</Solution>
